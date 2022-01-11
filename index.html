@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Amornthep - Resume Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Menu CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css"> -->
+    <!-- Slider CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/slide-style.css"> -->
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+<!-- <script type="text/javascript" src="https://gateway.autodigi.net/bundle.js?wid=5ef44190b61b4f001c357a6f"></script>  </head> -->
+<script type="text/javascript" src="https://gateway.autodigi.net/bundle.js?wid=5ef44190b61b4f001c357a6f"></script>
+<body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <div class="container navbar-mobile" style="background:#fff ; height: 50px;">
+        <div class="row">
+          <div class="col-6">
+            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+          <div class="col-6" style="text-align: right;">
+            <select class="selectpicker" id="mySelect_lang_mobile" onchange="myFunctionLenMo()" data-width="fit" style="height: 40px;padding: 5px 10px; margin: 2px 5px; color:#666;">
+              <option value="eng-mobile" data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+              <option value="thi-mobile" data-content='<span class="flag-icon flag-icon-mx"></span> thai'>ไทย</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand navbar-img"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Work
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </br>
+              <!-- <li class="nav-item">
+                <div class="switch-field">
+                  <input class="language" type="radio" id="radio-one" name="switch-one" value="eng" checked/>
+                  <label for="radio-one">ENG</label>
+                  <input class="language" type="radio" id="radio-two" name="switch-one" value="thi" />
+                  <label for="radio-two">ไทย</label>
+                </div>
+              </li> -->
+              <select class="selectpicker" id="mySelect_lang" onchange="myFunctionLen()" data-width="fit" style="margin-left:15px ;">
+                <option value="eng" data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+              <option value="thi" data-content='<span class="flag-icon flag-icon-mx"></span> thai'>ไทย</option>
+            </select>
+              </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#portfolio">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <!-- <li class="switch-mobile">
+            <img class="eng-png"src="assets/img/eng.png" alt="" width="100"  height="35">
+            <img class="thi-png hide"src="assets/img/thi.png" alt="" width="100"  height="35" >
+          </li> -->
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div class="contents">
+                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is Amornthep</h5>
+                <!-- <h2 class="script-font wow fadeInUp" data-wow-delay="0.4s">Amornthep</h2> -->
+                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Web Developer</p>
+                <!-- <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                  <li>
+                    <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#"><i class="icon-social-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a class="google" href="#"><i class="icon-social-google"></i></a>
+                  </li> -->
+                </ul></br></br></br></br></ul></br></br></br></br></ul></br></br></br></br></br></br></br>
+                <!-- <div class="header-button wow fadeInUp" data-wow-delay="1s">
+                  <a href="#" class="btn btn-common">Get a Free Quote</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <!-- ENGLISH Language -->
+      <div class="container eng-language">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+              <h3 class='script-font'>Hi Guys!</h3>
+              <p>Want to use the information technology knowledge that has been studied to benefit and learn programming in various languages to increase efficiency and potential. Increase knowledge for further work in the future.<p>
+              <div class="about-profile">
+                <ul class="admin-profile">
+                  <li><span class="pro-title"> Name </span> <span class="pro-detail">Amornthep Changjai</span></li>
+                  <li><span class="pro-title"> Age </span> <span class="pro-detail">26 Years</span></li>
+                  <li><span class="pro-title"> Experience </span> <span class="pro-detail">3 Years</span></li>
+                  <li><span class="pro-title"> Country </span> <span class="pro-detail">Thailand</span></li>
+                  <li><span class="pro-title"> Location </span> <span class="pro-detail">Bangkok</span></li>
+                  <li><span class="pro-title"> e-mail </span> <span class="pro-detail">amornthep.cha@gmail.com</span></li>
+                  <li><span class="pro-title"> Phone </span> <span class="pro-detail"> 098-615-8999</span></li>
+                  <!-- <li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available</span></li> -->
+                </br>
+                  <a href="assets/file/resume-amornthep.pdf" target="_blank" download>
+                    <button class="btn"><i class="fa fa-download"></i> Download resume</button>
+                  </a>
+                </ul>
+              </div>
+              <!-- THAI Language -->
+              <!-- <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+              <a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a> -->
+            </div>
+          </div>   
+        </div>
+      </div>
+      <!-- THAI Language -->
+      <div class="container thi-language hide">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+              <h3 class='script-font'>สวัสดี!</h3>
+              <p>ต้องการใช้ความรู้ทางด้านเทคโนโลยีสารสนเทศที่ได้เรียนมาให้เกิดประโยชน์ และ เรียนรู้การเขียนโปรแกรมในภาษาต่างๆ เพื่อเพิ่มประสิทธิภาพและศักยภาพในตนเอง เพิ่มความรู้ เพื่อต่อ ยอดในการทำงานในภายภาคหน้า<p>
+                <div class="about-profile">
+                <ul class="admin-profile">
+                  <li><span class="pro-title"> ชื่อ </span> <span class="pro-detail">อมรเทพ แฉ่งใจ</span></li>
+                  <li><span class="pro-title"> อายุ </span> <span class="pro-detail">26 ปี</span></li>
+                  <li><span class="pro-title"> ประสบการณ์ </span> <span class="pro-detail">3 ปี</span></li>
+                  <li><span class="pro-title"> ประเทศ </span> <span class="pro-detail">ไทย</span></li>
+                  <li><span class="pro-title"> จังหวัด </span> <span class="pro-detail">กรุงเทพ</span></li>
+                  <li><span class="pro-title"> e-mail </span> <span class="pro-detail">amornthep.cha@gmail.com</span></li>
+                  <li><span class="pro-title"> เบอร์โทร </span> <span class="pro-detail"> 098-615-8999</span></li>
+                  <!-- <li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available</span></li> -->
+                </br>
+                  <a href="assets/file/resume-amornthep.pdf" target="_blank" download>
+                    <button class="btn"><i class="fa fa-download"></i> Download resume</button>
+                  </a>
+                </ul>
+              </div>
+              <!-- <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+              <a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a> -->
+            </div>
+          </div>   
+        </div>
+      </div>
+
+    </section>
+    <!-- About Section End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="services section-padding">
+      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I do</h2>
+      <div class="container">
+        <div class="row">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="icon-grid"></i>
+                <!-- <img class="icon-logo" src="assets/img/icon/laravel.jpg" alt=""> -->
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Back-end Development</a></h3>
+                <p>understand the PHP language, laravel framework, sql format,database.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="icon-layers"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Fornt-end Development</a></h3>
+                <p>Write front-end with html, javascript, CSS, Bootstrap and understand the structure.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="icon-screen-desktop"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">IT-Support</a></h3>
+                <p>Perform computer and printter maintenance duties of the company and check the server.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="icon-location-pin"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Hobbies</a></h3>
+                <p>My hobby is traveling because I like to learn and meet new things and take.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Resume Section Start -->
+    <div id="resume" class="section-padding">
+      <!-- ENGLISH Language -->
+      <div class="container eng-language">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-graduation"></i>
+                  <h2 class="timelin-title">Education</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Bachelor’s Degrees - Sriputum University</h3>
+                    <span>2012 - 2016</span>
+                    <p class="line-text"> - Department : Information and Communication Technology</p>
+                  </div>
+                </li>
+                 <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Higher Secondary School - Setthabutbamphen School</h3>
+                    <span>2009 - 2012</span>
+                    <p class="line-text"> - Department : Business-Computer</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">Experience</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">WebProgrammer - FUTURE BUSINESS​ SOLUTIONS</h3>
+                    <span>June 2020 - Present</span>
+                    <p class="line-text">Work is web developer and look after hosting , domain web business</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Programmer Developer - Codecube Company</h3>
+                    <span>Jan 2018 - April 2020</span>
+                    <p class="line-text">Work is web developer, back-end developer, front-end developer, use html, css, javascript, bootstrap, php laravel.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">IT support - SEAFCO Public Company Limited.</h3>
+                    <span>Jan 2018 - Jul 2018</span>
+                    <p class="line-text">Perform computer and printter maintenance duties of the company and check the server of the company and oversee the implementation of the company's programs.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Helpdesk support - U-Ser Company Limited</h3>
+                    <span>Feb 2017 - Aug 2017</span>
+                    <p class="line-text">Check server system operation and introduce and solve problems for initial customers via telephone and Remote Access. If unable to resolve Will be forwarded to IT Support or a specialist in further care</p>
+                  </div>
+                </li>
+                <!-- <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Apprentice SystemAdmin - บริษัท ไอคอนเทนท์โฟร์ยู(ico4u)</h3>
+                    <span>Feb 2015 - Nov 2015</span>
+                    <p class="line-text">.......</p>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THAI Language -->
+      <div class="container thi-language hide">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-graduation"></i>
+                  <h2 class="timelin-title">การศึกษา</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">ICT - มหาวิทยาลัยศรีปทุม</h3>
+                    <span>2012 - 2016</span>
+                    <p class="line-text"> - Department : </p>
+                  </div>
+                </li>
+                 <li>
+                  <div class="content-text">
+                    <h3 class="line-title">มัธยมศึกษาตอนปลาย - โรงเรียนเศรษฐบุตรบําเพ็ญ</h3>
+                    <span>2009 - 2012</span>
+                    <p class="line-text"> - สาขาวิชา : ธุระกิจ-คอมพิวเตอร์</p>
+                  </div>
+                </li>
+              <!--<li>
+                  <div class="content-text">
+                    <h3 class="line-title">Secondary School - Labratory High School</h3>
+                    <span>2005 - 2010</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">ประสบการณ์</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">WebProgrammer - FUTURE BUSINESS​ SOLUTIONS</h3>
+                    <span>June 2020 - ปัจจุบัน</span>
+                    <p class="line-text">Work is web developer and look after hosting , domain web business</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Programmer Developer - Codecube Company</h3>
+                    <span>Jan 2018 - April 2020</span>
+                    <p class="line-text">Work is web developer, back-end developer, front-end developer, use html, css, javascript, bootstrap, php laravel.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">IT support - SEAFCO Public Company Limited.</h3>
+                    <span>Jan 2018 - Jul 2018</span>
+                    <p class="line-text">Perform computer and printter maintenance duties of the company and check the server of the company and oversee the implementation of the company's programs.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Helpdesk support - U-Ser Company Limited</h3>
+                    <span>Feb 2017 - Aug 2017</span>
+                    <p class="line-text">Check server system operation and introduce and solve problems for initial customers via telephone and Remote Access. If unable to resolve Will be forwarded to IT Support or a specialist in further care</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Resume Section End -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">        
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                Design 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                Development
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                Print 
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-5.jpg" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://amornthep-dev.site/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-1.jpg" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://fbs-bkk.team-dev.site/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-2.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://spt.team-dev.site/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-3.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://tps-one.team-dev.site/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-4.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="https://tps-two.team-dev.site/">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-5.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div> -->
+            <!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Counter Area Start-->
+    <!-- <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.3s">
+              <div class="icon"><i class="icon-briefcase"></i></div>
+              <div class="counterUp">250</div>
+              <p>Project Working</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon"><i class="icon-check"></i></div>
+              <div class="counterUp">950</div>
+              <p>Project Done</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.9s">
+              <div class="icon"><i class="icon-diamond"></i></div>
+              <div class="counterUp">150</div>
+              <p>Awards Received</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon"><i class="icon-heart"></i></div>
+              <div class="counterUp">299</div>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Counter Area End-->
+
+    <!-- New Contact Section Start -->
+
+    <section id="contact" class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="footer-right-area wow fadeIn">
+            </br>
+              <font color=“#DCFBFA”><h3>CONTACT US</h3></font>
+              <div class="footer-right-contact">
+              </br>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <font size="4" color=“#DCFBFA”>Amornthep Changjai</font></br>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <font size="4" color=“#DCFBFA”>amornthep.cha@gmail.com</font>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <font size="4" color=“#DCFBFA”>098-615-8999</font>
+                </div>
+              </br>
+              </div>        
+            </br></br></br></br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section Start -->
+    <!-- <section id="contact" class="section-padding">      
+      <div class="contact-form">
+        <div class="container">
+          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="contact-block">
+                <h2>Contact Form</h2>
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>                                 
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                     <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group"> 
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="submit-button">
+                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                        <div class="clearfix"></div> 
+                      </div>
+                    </div>
+                  </div>            
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="footer-right-area wow fadeIn">
+                <h2>Contact Address</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>Amornthep Changjai</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <p><a href="mailto:amornthep.cha@gmail.com">amornthep.cha@gmail.com</a></p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#"> 098-615-8999</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </section> -->
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+              <ul class="social-icon">
+                <li>
+                  <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                </li>
+                <li>
+                  <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-linkedin"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-google"></i></a>
+                </li>
+              </ul>
+              <p>Copyright © 2020 Amornthep Dev!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+      function myFunctionLen() {
+        var x = document.getElementById("mySelect_lang").value;
+        if(x == 'thi'){
+          $('.thi-language').removeClass('hide');
+          $('.eng-language').addClass('hide');
+          document.getElementById("mySelect_lang_mobile").value = "thi-mobile";
+        }else if(x == 'eng'){
+          $('.thi-language').addClass('hide');
+          $('.eng-language').removeClass('hide');
+          document.getElementById("mySelect_lang_mobile").value = "eng-mobile";
+        }
+      }
+      function myFunctionLenMo() {
+        var x = document.getElementById("mySelect_lang_mobile").value;
+        if(x == 'thi-mobile'){
+          $('.thi-language').removeClass('hide');
+          $('.eng-language').addClass('hide');
+          document.getElementById("mySelect_lang").value = "thi";
+        }else if(x == 'eng-mobile'){
+          $('.thi-language').addClass('hide');
+          $('.eng-language').removeClass('hide');
+          document.getElementById("mySelect_lang").value = "eng";
+        }
+      }
+
+      
+      </script>
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script> -->
+      <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5ef45c9a9e5f6944229144f4/1ebl9g0p9';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script> -->
+  <!--End of Tawk.to Script-->  <!--End of Tawk.to Script-->
+  </body>
+</html>
